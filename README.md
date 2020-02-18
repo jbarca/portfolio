@@ -1,5 +1,7 @@
 # portfolio
 
+inspired by: https://dev.to/markjohnson303/building-a-portfolio-site-with-vue-bulma-and-airtable-5a58
+
 ## Project setup
 ```
 npm install
