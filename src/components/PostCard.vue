@@ -12,14 +12,15 @@
                         <p class="title is-4">{{title}}</p>
                         <p class="subtitle is-6">{{date}}</p>
                     </div>
-                    <div class="content">
-                        <p>{{snippet}}</p>
-                        <router-link :to="'/project/'+slug" class="button is-fullwidth">
-                        View Project</router-link>
-                    </div>
+                </div>
+                <div class="content">
+                    <p>{{snippet}}</p>
+                    <router-link :to="'/project/'+slug" class="button is-fullwidth">
+                    View Project</router-link>
                 </div>
             </div>
         </div>
+    </div>
 </template>
 
 <script>
