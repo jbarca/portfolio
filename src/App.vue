@@ -4,7 +4,8 @@
     <nav class="navbar" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
         <router-link class="navbar-item" to="/">
-          <img src="./assets/logo.png" width="112" height="28">
+          <!-- <img src="./assets/output-onlinepngtools.png" width="112" height="40"> -->
+          <b>Jacob Barca</b>
         </router-link>
 
         <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
@@ -78,5 +79,6 @@ footer {
 </style>
 
 <style lang="sass">
+$navbar-item-img-max-height: 2.5rem;
 @import "~bulma/bulma.sass"
 </style>

@@ -4,8 +4,12 @@
             <div class="hero-body">
                 <div class="container">
                     <h1 class="title is-1">Hello, I'm Jacob.</h1>
-                    <h2 class="subtitle is-3">A customer focused, entrepreneurially minded
-                        web developer.</h2>
+                    <h3 class="subtitle is-3">A customer focused, entrepreneurially minded
+                        developer with a passion for back-end development.</h3>
+                    <router-link to="/projects">
+                        <button class="button is-primary is-rounded is-light">
+                            See Projects</button>
+                    </router-link>
                 </div>
             </div>
         </div>
